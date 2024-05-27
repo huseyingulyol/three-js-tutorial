@@ -1,0 +1,39 @@
+# Bağımlılık dizinleri
+node_modules/
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Çevresel ayar dosyaları
+.env
+.env.local
+.env.*.local
+
+# İşletim sistemi oluşturulan dosyalar
+.DS_Store
+Thumbs.db
+
+# Düzenleyicilerin ayarları
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build çıktıları
+dist/
+build/
+
+# Prod/Dev ayırmaları için oluşturulan dosyalar
+prod/
+dev/
+
+# Sıkıştırılmış dosyalar, arşivler
+*.tgz
+*.zip
+*.gz
+
+# Temp dosyaları
+tmp/
+temp/
